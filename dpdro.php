@@ -44,7 +44,7 @@ if (!function_exists('dpdRoUpdateChecker')) {
 	{
 		$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker('https://github.com/silviuploscariu/DPD-Woocommerce', __FILE__, 'DPD RO Shipping / Payment');
 		$myUpdateChecker->setBranch('master');
-		$myUpdateChecker->setAuthentication('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');
+		// $myUpdateChecker->setAuthentication('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');
 	}
 	dpdRoUpdateChecker();
 }
